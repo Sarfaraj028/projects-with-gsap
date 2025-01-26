@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 67px;
+}
+nav h2 span, i{
+    font-size: 40px;
+}
+
+nav h2 i{
+    display: inline-block;
+    rotate: 45deg;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-nav li{
+    list-style: none;
+    
+}
+
+.right-nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.right-nav button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: white;
+    font-size: 20px;
+}
+
+
+/* css for home  */
+.home{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+.home .text-div{
+    width: 500px;
+}
+.home .text-div h2{
+    margin: 20px 0;
+    font-size: 70px;
+}
+.home .text-div p{
+    font-size: 18px;
+}
+.home .text-div button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.home .photo-div{
+    width: 55% ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* sponshers */
+.sponsher{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+}
+.sponsher img{
+    width: 12vw;
+}
+
+/* service-header  */
+.service-header{
+    width: 100%;
+    padding: 20px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+.service-header h2{
+    background: greenyellow;
+    padding: 3px 5px;
+    font-size: 35px;
+}
+.service-header p{
+    width: 60%;
+}
+
+/* <!-- grid box  --> */
+.grid{
+    width: 100%;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+.grid div{
+    border-top: 2px solid black;
+    flex-shrink: 0;
+    width: 48%;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 0 7px 0 2px black;
+}
+.grid div:nth-of-type(2), .grid div:nth-of-type(3){
+    background: black;
+}
